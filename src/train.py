@@ -12,5 +12,5 @@ model = RandomForestClassifier()
 model.fit(X, y)
 
 # Save model
-joblib.dump(model, 'model/model.pkl')
+joblib.dump(model, 'Model/model.pkl')
 print(" Heart disease model trained.")
