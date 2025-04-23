@@ -2,7 +2,7 @@ import pandas as pd
 import joblib
 
 # Load model
-model = joblib.load('model/model.pkl')
+model = joblib.load('Model/model.pkl')
 
 # Sample patient
 sample = pd.DataFrame({
